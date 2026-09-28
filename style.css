@@ -30,9 +30,13 @@ body {
         BlinkMacSystemFont,
         "Segoe UI",
         sans-serif;
-
-    background: var(--bg);
+    
     color: var(--text);
+    background-image: url("fondo.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 
     line-height: 1.6;
 }
